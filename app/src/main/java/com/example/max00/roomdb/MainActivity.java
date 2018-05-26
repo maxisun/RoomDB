@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //:v
         rv =findViewById(R.id.recicladorpene);
         adapter = new MoviesAdapter(movies);
         rv.setLayoutManager(new LinearLayoutManager(this));
